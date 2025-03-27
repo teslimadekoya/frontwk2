@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fire Force</title>
+  </head>
+  <body>
+    <h1>Player Profile</h1>
+    <h2>Kalada</h2>
+    <img
+      src="Images/kaladda.jpeg"
+      alt="Image of Kalada"
+      width="800px"
+      height="580px"
+    />
+    <p><strong>Abilities:</strong></p>
+    <ul>
+      <li>Fireball</li>
+      <li>Poison Arrows</li>
+      <li>Healing Aura</li>
+      <li>Stealth Cloak</li>
+      <li>Berserker Rage</li>
+    </ul>
+    <p><strong>Fatality:</strong></p>
+    <p>Spine Rip</p>
+
+    <p><strong>Edit Player Profile:</strong></p>
+    <form action="">
+      <label for="player-name">Player Name:</label>
+      <input type="text" id="player-name" />
+
+      <label for="fatality">Choose a Fatality:</label>
+      <select id="fatality" name="fatality">
+        <option value="fireball">Spine Rip</option>
+        <option value="shadow-slash">Heart Crush</option>
+        <option value="healing-aura">Thunder Discharge</option>
+      </select>
+      <label for="enable-sound">Enable Sound:</label>
+      <input type="checkbox" id="enable-sound" name="enable-sound" />
+
+      <button type="submit">Save Profile</button>
+    </form>
+  </body>
+</html>
