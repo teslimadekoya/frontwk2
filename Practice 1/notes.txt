@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiddies Website</title>
+</head>
+<body>
+    <!-- Inline Styling -->
+    <h1 style ="color: #4D4845;">Hello World</h1>
+
+<!-- Internal Styling -->
+    <style>
+        h1
+        {
+            font-size: 64px;
+        }
+    </style>
+</body>
+</html>

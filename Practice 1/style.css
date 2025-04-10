@@ -1,0 +1,82 @@
+/* to do css reset is '*' */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    border: 1px solid red;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-self:
+    align-self: center;
+    align-content: center;
+    justify item (all these are all under flexbox) */
+    
+    
+
+}
+#logo{
+    width: 44px;
+    height: 44px;
+    border: 1px solid red;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/* css selectors */
+/* to select an id and style it */
+#first_para{
+    color: red;
+}
+
+/* to select a class and style it */
+.second_para{
+    color: blue;
+}
+.second_para:hover{
+    color: green;
+}
+#first_para::before{
+    content: "(This is a before pseudo element) ";
+    
+}
+#first_para::after{
+    content: " (This is an after pseudo element) ";
+    
+}
+
+/* the one i created */
+#first_para:hover{
+    color: rgb(179, 0, 125);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* css combinators */
+
+
+/* descendant selector */
+#container p{
+    color: rgb(0, 75, 68);
+}
+
+/* child selector */
+#container > p{
+    color: rgb(173, 0, 231);
+}
+/* sibling selector */
+#container > div ~ p{
+    font-size: 64px;
+}
+
+/* adjacent sibling selector */
+#container > div + p{
+    font-weight: bolder;
+}
