@@ -10,16 +10,21 @@ html{
     line-height: 1.5;
 }
 .container{
-    width: 520px;
+    width: 360px;
     background-color: #f8dd53;
-    margin: 100px auto;
+    margin: 12px;
+    
+
 }
+
+
 #card_name{
     font-family: 'Inter', sans-serif;
     font-size: 28px;
     text-align: left;
     padding: 12px 28px;
     font-weight: 600;
+    color: #120201;
     border: 8px solid #f9a901;
 }
 
@@ -27,3 +32,65 @@ html{
 
 
 /* SECTION CODE STARTS HERE */
+
+#card_image{
+    width: 360px;
+    height: 240px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border: 8px solid #120201;
+}
+#controller{
+    display: flex;
+    justify-content: center;
+}
+
+
+#text_container{
+    background-color: #FFE6CD;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 12px auto ;
+    padding: 12px;
+    border: 8px solid #503a03;
+    color: #2c1c05;
+}
+
+#text_style{
+    border-bottom: 3px solid #120201;
+    padding-bottom: 8px;
+}
+#text_style2{
+    padding-top: 12px;
+}
+#text_style3{
+    padding-bottom: 12px;
+    border-bottom: 3px solid #120201;
+
+}
+#text_style4{
+    padding-top: 8px;
+}
+#main_body{
+    display: flex;
+    flex-direction: column;
+    background-color: #f8dd53;   
+    width: fit-content; 
+    padding: 16px;
+    border: 8px solid #120201;
+
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 164px;
+}
+
+/* SECTION CODE ENDS HERE */
