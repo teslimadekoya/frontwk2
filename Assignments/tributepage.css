@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Almaria', sans-serif;
+    line-height: 1.5;
+}
+#header_div{
+    padding: 4px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid #CFCFCF;
+
+}
+header{
+    background-color: #EEEEEE;
+
+
+}
+
+#name{
+    font-size: 56px;
+    color: #333333;
+    font-weight: 500;
+    padding-bottom: 0px;
+}
+#profession{
+    font-size: 28px;
+    color: #333333;
+    font-weight: 200;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+#fun_facts{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    padding-left: 24px;
+    color: #333333;
+}
+#lenna_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin: auto;
+    padding: 24px 24px 64px 24px;
+    background-color: #EEEEEE;
+}
+
+#image{
+    width: 540px;
+    height: 680px;
+    border: 8px solid #333333;
+
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#about_lenna{
+    font-family: 'Almarai', sans-serif;
+    font-size: 18px;
+    padding-bottom: 24px;
+    color: #333333;
+}
+#lennaa{
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+#about_lenna2{
+    font-family: 'Almarai', sans-serif;
+    font-size: 18px;
+    color: #333333;
+}
