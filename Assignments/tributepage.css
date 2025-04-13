@@ -15,24 +15,24 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 2px solid #CFCFCF;
+    border-bottom: 2px solid #b2b2b2;
 
 }
 header{
-    background-color: #EEEEEE;
+    background-color: #c6c6c6;
 
 
 }
 
 #name{
     font-size: 56px;
-    color: #333333;
+    color: #323232;
     font-weight: 500;
     padding-bottom: 0px;
 }
 #profession{
     font-size: 28px;
-    color: #333333;
+    color: #323232;
     font-weight: 200;
 }
 .container{
@@ -44,7 +44,7 @@ header{
     flex-direction: column;
     font-size: 16px;
     padding-left: 24px;
-    color: #333333;
+    color: #323232;
 }
 #lenna_content{
     display: flex;
@@ -53,13 +53,13 @@ header{
     gap: 40px;
     margin: auto;
     padding: 24px 24px 64px 24px;
-    background-color: #EEEEEE;
+    background-color: #c6c6c6;
 }
 
 #image{
     width: 540px;
     height: 680px;
-    border: 8px solid #333333;
+    border: 4px solid #ffffff;
 
     
 }
@@ -71,7 +71,7 @@ img{
     font-family: 'Almarai', sans-serif;
     font-size: 18px;
     padding-bottom: 24px;
-    color: #333333;
+    color: #323232;
 }
 #lennaa{
     display: flex;
@@ -81,5 +81,5 @@ img{
 #about_lenna2{
     font-family: 'Almarai', sans-serif;
     font-size: 18px;
-    color: #333333;
+    color: #323232;
 }
